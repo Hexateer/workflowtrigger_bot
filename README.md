@@ -7,25 +7,25 @@ Setup this your server host or ur own server if u have. Am currently using [Serv
 #### Changes to be done to bot.py
 (Don't remove double quotes, change content in it)
 
-DISCORD_TOKEN = "MTM0NT1234567890"        # Create a bot in developer.discord there u will get it
+DISCORD_TOKEN = "MTM1NTYxMjE5NDE3OTM4MzQwNg.GSYyTf.yw1TpIxJnRMjzN5Ob7nLMaSeycyGAnYKXxxt2E"        # Create a bot in developer.discord there u will get it
 
 GITHUB_TOKEN = "github_pat_1234567890"    # Go to  settings in profile > developer settings > personal access token > fine grain (there a image below if don't know what to set in it)
 
-OWNER = "githubusername"                  # Change to ur username 
+OWNER = "Hexateer"                  # Change to ur username 
 
 REPO = "mcserverstarter"                  # Change to the forked repo name
 
 WORKFLOW_FILE = "selenium.yml"            # Maybe the file name is same if not then change
 
 
-ALLOWED_SERVER_ID = 1234567890123456789  # Replace with your Discord server ID
+ALLOWED_SERVER_ID = 1355611713260490812  # Replace with your Discord server ID
 
-NOTIFY_CHANNEL_ID = 1234567890123456789  # Channel where notification is sent (for workflow trigger logs) or just comment it out if not needed
+NOTIFY_CHANNEL_ID = 1355611754213933146  # Channel where notification is sent (for workflow trigger logs) or just comment it out if not needed
 
 #### Cooldown & daily limit system (in bot.py as well)
 COOLDOWN_TIME = 600  # 600 seconds (10 minutes) cooldown per user
 
-MAX_USES_PER_DAY = 6  # Limit per user per day
+MAX_USES_PER_DAY = 60  # Limit per user per day
 
 ### Commands
 
